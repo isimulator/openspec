@@ -6,3 +6,8 @@ All notable changes to this repository are documented here. Format follows Keep 
 
 ### Added
 - Initial repository seed for the iSimulator organization.
+
+## [0.2.0] - 2026-08-31
+
+### Added
+- changes/ISIM-CR-01: Interactive Semantic Simulation Architecture proposal; first change to exercise the delta workflow.
