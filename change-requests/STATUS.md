@@ -29,15 +29,15 @@ The GitHub Project board (orgs/isimulator/projects/1) mirrors this table; the pr
 |----|-------|--------|-----|-------------|-------|
 | ISIM-CR-01 | Interactive Semantic Simulation Architecture | Merged | direct-to-main (see `POST-HOC-REVIEWS.md`) | 2026-08-31 | Architecture foundation; predates the PR-workflow rule |
 | ISIM-CR-02 | Reusable Simulation Framework | Merged | direct-to-main (see `POST-HOC-REVIEWS.md`); 4 commits across openspec, itwin-spec, docs, examples | 2026-08-31 | First multi-repo tranche; sets the §26 A-K pattern for downstream CRs |
-| ISIM-CR-03 | Reference Engine Integration (planned) | Proposed | not yet opened | — | First IDR-driven proof; SimPy as candidate reference DES engine per ADR-0002 |
-| ISIM-CR-04 | Scenario Experiment Framework (planned) | Proposed | not yet opened | — | Depends on ISIM-CR-03 |
-| ISIM-CR-05 | Simulation Runtime API (planned) | Proposed | not yet opened | — | Depends on ISIM-CR-03, ISIM-CR-04 |
-| ISIM-CR-06 | Simulation Builder / Studio (planned) | Proposed | not yet opened | — | Depends on ISIM-CR-05 |
-| ISIM-CR-07 | Forecast, Prediction, Optimization (planned) | Proposed | not yet opened | — | Depends on ISIM-CR-05 |
-| ISIM-CR-08 | Local AI Simulation Interaction (planned) | Proposed | not yet opened | — | Depends on ISIM-CR-02, ISIM-CR-06 |
-| ISIM-CR-09 | Visualization Provider Integrations (planned) | Proposed | not yet opened | — | Depends on ISIM-CR-02, ISIM-CR-05 |
-| ISIM-CR-10 | Operational Twin Synchronization (planned) | Proposed | not yet opened | — | Depends on ISIM-CR-05, ISIM-CR-09 |
-| ISIM-CR-11 | Autonomous Simulation Closed Loop (planned) | Proposed | not yet opened | — | Depends on ISIM-CR-07, ISIM-CR-10 |
+| ISIM-CR-03 | Reference Engine Integration (planned) | Proposed | not yet opened | : | First IDR-driven proof; SimPy as candidate reference DES engine per ADR-0002 |
+| ISIM-CR-04 | Scenario Experiment Framework (planned) | Proposed | not yet opened | : | Depends on ISIM-CR-03 |
+| ISIM-CR-05 | Simulation Runtime API (planned) | Proposed | not yet opened | : | Depends on ISIM-CR-03, ISIM-CR-04 |
+| ISIM-CR-06 | Simulation Builder / Studio (planned) | Proposed | not yet opened | : | Depends on ISIM-CR-05 |
+| ISIM-CR-07 | Forecast, Prediction, Optimization (planned) | Proposed | not yet opened | : | Depends on ISIM-CR-05 |
+| ISIM-CR-08 | Local AI Simulation Interaction (planned) | Proposed | not yet opened | : | Depends on ISIM-CR-02, ISIM-CR-06 |
+| ISIM-CR-09 | Visualization Provider Integrations (planned) | Proposed | not yet opened | : | Depends on ISIM-CR-02, ISIM-CR-05 |
+| ISIM-CR-10 | Operational Twin Synchronization (planned) | Proposed | not yet opened | : | Depends on ISIM-CR-05, ISIM-CR-09 |
+| ISIM-CR-11 | Autonomous Simulation Closed Loop (planned) | Proposed | not yet opened | : | Depends on ISIM-CR-07, ISIM-CR-10 |
 
 ## How to read this table
 
