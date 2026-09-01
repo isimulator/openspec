@@ -35,8 +35,8 @@ Under those conditions, opening a PR and self-merging it would have created audi
 - One CR per PR (or one tightly coupled PR set with explicit cross-links).
 - PR body MUST map the change to the CR's required assets (e.g. for ISIM-CR-02 §26 A-K, each PR would have quoted its mapped sub-sections).
 - Merge only on explicit `merge` from the change owner.
-
-The `openspec/change-requests/STATUS.md` table is the new tracker that enforces this expectation from CR-03 forward.
+- **Solo-reviewer constraint:** GitHub disallows a PR author from approving their own PR. On a single-contributor repo the only merge path is `gh pr merge --admin` (admin override) after an explicit `merge` from the change owner. This is recorded honestly here so the audit trail reflects what actually happened with PR #3 (the first CR to use this workflow).
+- The `openspec/change-requests/STATUS.md` table is the new tracker that enforces this expectation from CR-03 forward.
 
 ## Per-commit review notes (as if read at PR time)
 
@@ -78,3 +78,4 @@ ISIM-CR-03 (Reference Engine Integration) will be the first CR to use the PR wor
 - Status row added to `openspec/change-requests/STATUS.md` at PR-open time
 - Project board row linked to the PR
 - Merge on explicit `merge` instruction only
+- For solo-reviewer repos: `gh pr merge --admin` after explicit `merge` instruction (see "Solo-reviewer constraint" above)
